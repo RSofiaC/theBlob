@@ -73,4 +73,5 @@ void loop() {
 
   // fade the LED using the calibrated value:
   analogWrite(ledPin, sensorValue);
+  Serial.println(sensorValue);
 }
